@@ -2,7 +2,6 @@ module Spree
   class Gateway::PayflowPro < Gateway
     preference :login, :string
     preference :password, :password
-    preference :username, :string
     preference :partner, :string
 
 
